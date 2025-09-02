@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canales de contacto</title>
+    
+    
+    
+</head>
+<body>
+    <div>
+     <a href="nosotros.html">nosotros</a>
+     <a href="productos.html">productos</a>
+     <a href="inicio.html">inicio</a>
+
+    </div>
+<div style="text-align: center;">
+    <h1>Contactanos</h1>
+    <p>Tenemos servicio 24/7</p>
+    <img src="imagenes/estilista.jfif" width="40%">
+    <iframe src="https://maps.app.goo.gl/p2AFHGq5rPWiHJoL7" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</div>
+
+    <h2 style="text-align: center;">llena el formulario</h2>
+    <div style="display: flex; justify-content: center;">
+<form>
+        <label>Nombre:</label>
+        <input type="text" placeholder="En mayuscula"><br>
+        <label>telefono</label>
+        <input type="number"><br>
+        <label>correo</label>
+        <input type="email" required><br>
+        <label>fecha de nacimiento</label>
+        <input type="date" min="1980-01-31" max="2007-12-31"><br>
+        <label>edad</label>
+        <input type="number" min="18" max="50"><br>
+        <label>sube una foto:</label>
+        <input type="file"accept=".jpg, png, jpeg, .pdf"> <br>
+        <label>selecciona un genero</label>
+        <input type="radio" name="genero" value="hombre">Hombre
+        <input type="radio" name="genero" value="mujer">Mujer
+        <input type="radio" name="genero" value="otro">Otro
+        <br>
+        <label>selecciona productos:</label> <br>
+        <input type="checkbox" name="producto" value="cejas y pestañas">Cejas y pestañas
+        <input type="checkbox" name="producto" value="uñas">Uñas
+        <input type="checkbox" name="producto" value="trenzas">Trenzas
+        <br>
+        <label>¿como te contactamos?</label>
+        <select name="contacto">
+            <option value="Celular">Celular</option>
+            <option value="Correo">Correo</option>
+            <option value="Humo">Señales de Humo</option>
+            <option value="paloma">Paloma mensajera</option>
+            <option value="woki toki">Woki toki</option>
+
+        </select>
+        <br>
+        <label> Mensaje</label>
+        <br>
+        <textarea name="mensaje"></textarea>
+
+        <br> <br> <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+    </div>
+    
+
+</div>
+</body>
+</html>
